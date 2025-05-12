@@ -5,6 +5,15 @@
   <title>Menù Carni | Ristorante Bambù</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
+  <!-- <script type="text/javascript">
+    var _iub = _iub || [];
+    _iub.csConfiguration = {"siteId":4023306,"cookiePolicyId":18845701,"lang":"it","storage":{"useSiteId":true}};
+    </script>
+    <script type="text/javascript" src="https://cs.iubenda.com/autoblocking/4023306.js"></script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script> -->
+
+    <link rel="icon" type="image/png" href="images/bambuIco.png">
+
   <!-- Google Fonts: Poppins -->
   <link 
     rel="preconnect" 
@@ -188,13 +197,17 @@
       .hero-banner p {
         font-size: 1rem;
       }
+
+      .hero-banner {
+        height: 500px !important;
+      }
     }
 
     /* HERO BANNER */
     .hero-banner {
       position: relative;
       width: 100%;
-      height: 50vh;
+      height: 60vh;
       background: url('images/banner.png') center/cover no-repeat;
       display: flex;
       align-items: center;
@@ -228,7 +241,7 @@
 <body>
 
   <!-- HEADER personalizzato (senza bottone) -->
-  <header class="custom-header">
+  <header class="custom-header py-4">
     
     <h1 class="restaurant-name text-center">Ristorante <span class="bambu">Bambù</span></h1>
     <!-- <div class="social-icons">
@@ -256,11 +269,14 @@
       </div>
       <div class="row g-4" data-aos="fade-up">
 
+
+
+
         <!-- Carne 1: Reggiana Pezzata Rossa -->
         <div class="col-md-4">
           <div class="card border-0 shadow menu-card">
             <div class="card-body">
-              <h5 class="card-title">Reggiana Pezzata Rossa</h5>
+              <h5 class="card-title">Reggiana Rossa</h5>
               <p class="card-text">
                 Carne da vacche utilizzate anche per il Parmigiano Reggiano, gusto intenso.
               </p>
@@ -275,6 +291,7 @@
             </div>
           </div>
         </div>
+
 
         <!-- Carne 2: Chianina IGP -->
         <div class="col-md-4">
@@ -296,6 +313,8 @@
           </div>
         </div>
 
+
+
         <!-- Carne 3: Marchigiana DOC -->
         <div class="col-md-4">
           <div class="card menu-card border-0 shadow">
@@ -315,6 +334,9 @@
             </div>
           </div>
         </div>
+
+
+
 
       </div>
     </div>
@@ -350,7 +372,7 @@
     <!-- Frollatura e Marezzatura -->
     <div class="row align-items-center pt-5">
       
-      <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-up">
+      <div class="col-lg-10 mb-5 mb-lg-0" data-aos="fade-up">
         <h3 class="fw-bold mb-3">Cosa sono <span class="bambu fs-4">Frollatura</span> e <span class="bambu fs-4">Marezzatura</span>?</h3>
         <p>
           La <strong>frollatura</strong> è un processo di riposo della carne in celle refrigerate a temperatura 
@@ -362,9 +384,6 @@
           visibile come venature bianche. È fondamentale per garantire <strong>succosità e sapore</strong>: 
           maggiore è la marezzatura, più ricca sarà l’esperienza gustativa.
         </p>
-      </div>
-      <div class="col-lg-6">
-        <img src="images/image2.png" alt="Costata vs Fiorentina" class="img-fluid rounded shadow" data-aos="flip-left">
       </div>
 
     </div>
@@ -379,8 +398,11 @@
       <a href="#"><i class="bi bi-instagram"></i></a>
 
     </div> -->
-      <p class="mb-1">&copy; 2025 Ristorante Bambù. </p>
-      <small><a href="#">VIA ABETONE BRENNERO 137 POGGIO RUSCO (MN), CAP 46025, P.iva : 02432840201</a><br><a class="text-decoration-none" style="color: #059800;" href="leonardolodi.dev">leonardolodi.dev</a></small>
+    <p class="mb-1">&copy; 2025 Ristorante Bambù. </p>
+      <small class="pb-2"><a href="#">VIA ABETONE BRENNERO 137 POGGIO RUSCO (MN), CAP 46025, P.iva : 02432840201</a><br><a class="text-decoration-none" style="color: #059800;" href="leonardolodi.dev">leonardolodi.dev</a></small><br>
+      <a href="https://www.iubenda.com/privacy-policy/18845701" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+      <a href="https://www.iubenda.com/privacy-policy/18845701/cookie-policy" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+        
     </div>
   </footer>
 
